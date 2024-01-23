@@ -12,7 +12,6 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/beerlist' element={<BeerList />} />
         <Route path='/beerlist/:ichBinEinId' element={<BeerDetails />} />
-
       </Routes>
     </>
   )
