@@ -40,3 +40,48 @@
 .read-the-docs {
   color: #888;
 }
+
+@font-face {
+  font-family: 'RubikDoodleShadow';
+  src: url(../src/assets/font/RubikDoodleShadow-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Climate';
+  src: url(../src/assets/font/ClimateCrisis-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Prompt';
+  src: url(../src/assets/font/Prompt-Light.ttf);
+}
+
+/* @use '_font' as font; */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Prompt';
+  margin: 0px auto;
+  text-align: center;
+  width: 100vw;
+  background-image: url(../src/assets/img/wil-stewart-UErWoQEoMrc-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: rgba(7,7,7,0.7);
+  text-shadow: 1px 1px 1px rgba(7, 7, 7, 0.7);
+}
+
+h1 {
+  font-family: 'RubikDoodleShadow';
+}
+
+div {
+  background-color: rgba(231,231,231,0.7);
+}
